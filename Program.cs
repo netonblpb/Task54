@@ -26,7 +26,7 @@ else diag = X;
 
 void Summa(int[,] array, int diagon, int summa)
 {
-    for (int i = 0; i <= diagon; i++)
+    for (int i = 0; i < diagon; i++)
     {
        summa += array[i, i];
     }
